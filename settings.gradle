@@ -1,0 +1,2 @@
+include ':dottedsecureentrypinview'
+rootProject.name='Dotted SecureEntry PIN View'

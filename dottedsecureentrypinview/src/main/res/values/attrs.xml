@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CircularBackgroundPINView">
+        <attr name="outerContainerShape" format="enum">
+            <enum name="rectangle" value="1"/>
+            <enum name="oval" value="0"/>
+        </attr>
+        <attr name="outerContainerBorderColor" format="color"/>
+        <attr name="outerContainerBackgroundColor" format="color"/>
+        <attr name="outerContainerBorderWidth" format="dimension"/>
+        <attr name="innerCircleFillColor" format="color"/>
+        <attr name="outerContainerSize" format="dimension"/>
+        <attr name="innerRingDiameter" format="dimension"/>
+        <attr name="innerMargin" format="dimension"/>
+        <attr name="numberOfDigits" format="integer"/>
+    </declare-styleable>
+</resources>

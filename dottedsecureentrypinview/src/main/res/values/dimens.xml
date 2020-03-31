@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="pd200">32dp</dimen>
+    <dimen name="pd50">8dp</dimen>
+    <dimen name="pd150">24dp</dimen>
+    <dimen name="pd1">1dp</dimen>
+</resources>
