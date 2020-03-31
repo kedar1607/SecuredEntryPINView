@@ -1,17 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/fl_outer_container"
-    android:layout_width="@dimen/pd200"
-    android:layout_height="@dimen/pd200"
+    android:id="@+id/fl_root"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
     android:layout_gravity="center"
     android:layout_margin="@dimen/pd50"
     android:gravity="center">
 
-    <View
-        android:id="@+id/filled_indicator"
+    <FrameLayout
+        android:layout_width="@dimen/pd200"
+        android:layout_height="@dimen/pd200"
+        android:layout_gravity="center"
+        android:id="@+id/fl_outer_container"/>
+
+    <FrameLayout
+        android:id="@+id/fl_secured_text"
         android:layout_width="@dimen/pd150"
         android:layout_height="@dimen/pd150"
         android:layout_gravity="center"
-        android:visibility="gone"
-        />
+        android:visibility="gone"/>
 </FrameLayout>

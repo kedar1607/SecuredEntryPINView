@@ -1,17 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <declare-styleable name="CircularBackgroundPINView">
-        <attr name="outerContainerShape" format="enum">
-            <enum name="rectangle" value="1"/>
-            <enum name="oval" value="0"/>
-        </attr>
-        <attr name="outerContainerBorderColor" format="color"/>
-        <attr name="outerContainerBackgroundColor" format="color"/>
-        <attr name="outerContainerBorderWidth" format="dimension"/>
-        <attr name="innerCircleFillColor" format="color"/>
-        <attr name="outerContainerSize" format="dimension"/>
-        <attr name="innerRingDiameter" format="dimension"/>
-        <attr name="innerMargin" format="dimension"/>
+    <declare-styleable name="CustomizablePINView">
         <attr name="numberOfDigits" format="integer"/>
+        <attr name="outerContainerShape" format="enum">
+            <enum name="rectangle" value="0"/>
+            <enum name="oval" value="1"/>
+        </attr>
+        <attr name="outerContainerSize" format="dimension"/>
+        <attr name="outerContainerMargin" format="dimension"/>
+        <attr name="outerContainerCornerRadius" format="dimension"/>
+        <attr name="outerContainerBorderColorActivated" format="color"/>
+        <attr name="outerContainerBorderColorNotActivated" format="color"/>
+        <attr name="outerContainerBackgroundColor" format="color"/>
+        <attr name="outerContainerBorderWidthActivated" format="dimension"/>
+        <attr name="outerContainerBorderWidthNotActivated" format="dimension"/>
+        <attr name="securedTextFillColor" format="color"/>
+        <attr name="securedTextDiameter" format="dimension"/>
+        <attr name="errorTextMessage" format="string"/>
+        <attr name="errorTextColor" format="color"/>
     </declare-styleable>
 </resources>

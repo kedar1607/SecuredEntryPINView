@@ -5,4 +5,5 @@
     <dimen name="pd50">8dp</dimen>
     <dimen name="pd150">24dp</dimen>
     <dimen name="pd1">1dp</dimen>
+    <dimen name="pdHalf">0.5dp</dimen>
 </resources>

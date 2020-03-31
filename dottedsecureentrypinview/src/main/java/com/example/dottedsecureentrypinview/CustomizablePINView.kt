@@ -352,6 +352,11 @@ class CustomizablePINView @JvmOverloads constructor(
         }
     }
 
+    fun hideKeyboard() {
+        val imm = context.getSystemService(Context.INPUT_METHOD_SERVICE) as InputMethodManager?
+        imm?.hideSoftInputFromWindow(windowToken, 0)
+    }
+
     private fun deActivateForPinEntry() {
         val outerContainerBackgroundDrawable = GradientDrawable()
         outerContainerBackgroundDrawable.setStroke(

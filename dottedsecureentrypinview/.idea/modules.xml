@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/dottedsecureentrypinview.iml" filepath="$PROJECT_DIR$/dottedsecureentrypinview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Dotted SecureEntry PIN View.iml" filepath="$PROJECT_DIR$/../Dotted SecureEntry PIN View.iml" group="Dotted SecureEntry PIN View" />
+      <module fileurl="file://$PROJECT_DIR$/dottedsecureentrypinview.iml" filepath="$PROJECT_DIR$/dottedsecureentrypinview.iml" group="Dotted SecureEntry PIN View/dottedsecureentrypinview" />
+      <module fileurl="file://$PROJECT_DIR$/../testpinview/testpinview.iml" filepath="$PROJECT_DIR$/../testpinview/testpinview.iml" group="Dotted SecureEntry PIN View/testpinview" />
     </modules>
   </component>
 </project>

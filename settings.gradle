@@ -1,2 +1,2 @@
-include ':dottedsecureentrypinview'
+include ':dottedsecureentrypinview', ':testpinview'
 rootProject.name='Dotted SecureEntry PIN View'
